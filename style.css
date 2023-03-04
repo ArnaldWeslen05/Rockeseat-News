@@ -1,0 +1,116 @@
+
+body{
+    background-color: #121214;
+    display: grid;
+    margin:0;
+    height: 100vh;
+    /* grid-template-areas:  */
+    /* "logo imagem" */
+
+}
+    
+
+img{
+    margin: 0;
+    color: white;
+    
+}
+.logo{
+    /* grid-area:logo ; */
+    /* text-align: left; */
+    /* height: 30%; */
+    position: absolute;
+    left: 0;
+    margin: 16px;
+    
+}
+.img{
+    /* grid-area: imagem; */
+    /* text-align: right; */
+    position: absolute;
+    right: 0; 
+}
+ h1{
+    position: absolute;
+    color: #04D361;
+    font-family: Spartan, Work Sans ;
+    font-weight:600;
+    bottom: 50%;
+    margin: 16px;
+ }
+ h4{
+    position: absolute;
+    color:#E1E1E6;
+    font-family: Spartan, Work Sans;
+    font-weight:500px;
+    bottom: 47%;
+    margin: 16px;
+ }
+ 
+p{
+    position: absolute;
+    color: #A8A8A8;
+    font-family: Spartan, Work Sans;
+    font-weight:500;
+    bottom: 40%;
+    margin: 16px;
+}
+label{
+    position: absolute;
+    bottom: 33%;
+    font-family: Spartan, Work Sans;
+    color: #A8A8A8;
+    margin: 16px;
+}
+input{
+    position: absolute;
+    width: 750px;
+    height: 45px;
+    margin: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 0%;
+    bottom: 25%;
+}
+button{
+    position: absolute;
+    background-color: #8257e5;
+    right: 41%;
+    height: 49px;
+    margin: 16px;
+    bottom: 25%;
+    border:2px solid #8257e5;
+}
+.bordergreen{
+    position: absolute;
+    background-color: #04D361;
+    margin: 8px;
+    width: 10px;
+    height:49px;
+    bottom: 26.2% ;
+    border-radius: 20%;
+}
+
+   
+h2{
+    position: absolute;
+    margin: 16px;
+    color: #8257e5;
+    bottom: 15%;
+    font-size: 15px;
+}
+.arrow{
+    position: absolute;
+    margin: 16px;
+    bottom: 13.7%;
+    left: 11%;
+
+}
+
+
+:root {
+  --body-bg-color: #121214;
+  --text-color: #E1E1E6;
+  --title-color: #04D361;
+  --form-color: #A8A8A8;
+  --bg-button-color: #8257e5;
+}
